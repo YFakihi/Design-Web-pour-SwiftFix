@@ -585,7 +585,7 @@ footer {
 .footer__lists__1 
 span {
     width: 13rem;
-    color:rgb(234, 255, 0);
+
     font-size: 1.3rem;
     font-weight: 600;
     
@@ -594,14 +594,14 @@ span {
 .footer__lists__2
 span {
     width: 13rem;
-    color:rgb(234, 255, 0);
+
     font-weight: 600;
 }
 
 .footer__lists__3
 span {
     width: 13rem;
-    color:rgb(234, 255, 0);
+ 
     font-weight: 600;
 }
 
