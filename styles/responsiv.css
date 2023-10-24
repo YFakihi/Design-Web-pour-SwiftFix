@@ -1,0 +1,193 @@
+@media  screen and (max-width: 1023px) and (min-width: 400px)  {
+
+    .navbar{    
+        top: 0;
+        left: 0;
+        position: absolute;    
+        background-color:#dcd9d97f ;  
+        backdrop-filter: blur(10px);  
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+          transition:  0.5s ease;  
+    
+    }
+    .mobile-menu{
+        margin-left:0;
+     }
+
+     .navbar.nav-logo{
+        position: absolute;
+        top: 50px;
+        left: 35px;
+    }
+
+    nav ul{
+     display: flex;
+     flex-direction: column;
+    }
+
+
+    nav {
+    
+        height: 10rem;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 2rem;  
+    }
+    
+    .menu{
+       display: block;
+       justify-content: flex-end;
+       align-items: center;
+    }
+    nav .navbar ul li{
+        margin:25px 0 ;
+        font-size: 1.9rem;
+    }
+}
+
+@media  screen and (max-width: 1023px) and (min-width: 400px)  {
+   .hero{
+    display: none;
+   }
+   .name{
+    display: none;
+   }
+   .box{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+   }
+   .box-items{
+    display: flex;
+    flex-direction: column;
+   }
+   .box__headin{
+    margin-bottom: 1rem;
+   }
+   .textitem{
+    width:100%;
+   }
+   .textitem p{
+    width: 580px;
+
+   }
+   .text 
+    {
+       
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+
+    }
+  
+.textitem h2 {
+    width: auto;
+}
+
+.Testimonials{
+    display: flex;
+    flex-direction: column;
+
+}
+.BG{
+    height: 60vh;
+}
+   .p2{
+    margin-top: 2rem;
+   }
+   
+   footer{
+    display: flex;
+    flex-direction: column;
+   }
+ 
+   .p1{
+    width: 100%;
+   }
+   .par{
+    margin-left: 4rem;
+    width: 100%;
+   }
+
+   .par h1 {
+    color: #094B72;
+    font-family: Playfair Display;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    letter-spacing: 0.1125rem;
+    margin-left: 1.3rem;
+    width: 73%;
+}
+
+#Text_testimonial2{
+    display: none;
+}
+
+/* page about */
+.heroo{
+    display: none;
+}
+
+.content p{
+    width: auto;
+}
+/* page services  */
+
+.servic_sec{
+    height: 35rem;
+}
+.services p{
+    width: auto;
+}
+
+/* footer */
+footer{
+    display: flex;
+    align-items: center;
+    
+}
+.footer__log{
+    align-self: self-start;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_child{
+    font-size: 2rem;
+    height: 34vh;
+}
+
+}
+
+@media (max-width:1023px) { 
+    
+}
+
+@media  screen and (max-width: 500px)   {
+    .p1{
+        width: 15rem;
+       }
+
+       .textitem h2{
+        width:19rem;
+       }
+
+       .textitem p{
+        width:17rem;
+        margin-bottom: 9rem;
+       }
+}
