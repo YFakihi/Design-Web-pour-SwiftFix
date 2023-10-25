@@ -10,7 +10,7 @@ header {
 }
 
 nav {
-    
+  
     height: 10rem;
     width: 100%;
     display: flex;
@@ -24,11 +24,6 @@ nav {
   
 }
 
-.navbar svg {
-    margin-left: 11rem;
-    margin-top: 1rem;
-}
-
 a {
     text-decoration: none;
     color: #000000;
@@ -36,7 +31,7 @@ a {
 }
 
 
-.navbar ul {
+.navbar .nav_link {
     list-style: none;
     display: flex;
     font-family: 'Poppins', sans-serif;
@@ -833,15 +828,61 @@ i{
 }
 
 .dropdown{
-    display: block;
-    position: absolute;
-
-    top: 100%;
-    background-color: black;
-
+    position: relative;
+    
 }
-.dropdown ul{   
+.dropdown_list{
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    display: none;
+    list-style: none;
+}
+.drop{
+    margin-top: 0.5rem;
+    display: flex;
+}
+.dropdown_list a{
+    color: black;
+    padding: 1rem 1rem;
+}
+.select-active{   
     display: block;
-    margin: 10px;
-    background-color: red;
+}
+
+
+
+.close{
+    border-radius: 8px;
+    background: #126291;
+    width: 219px;
+    height: 64px;
+    color: #F9F8F9;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    justify-content: center;
+}
+
+
+.close:hover{
+ 
+            cursor: pointer;
+}
+
+
+
+.open:hover{
+            cursor: pointer;
+}
+
+.modal{    
+   
+    padding: 30px 50px;
+    width: 700px;
+    border: #FFF;
+    box-shadow: 0 0 1em rgb(0, 0, .3);
 }

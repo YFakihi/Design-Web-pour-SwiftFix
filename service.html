@@ -13,7 +13,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500&family=Playfair+Display&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -24,34 +26,36 @@
                 <a class="image" href="index.html"><img src="img/llogo.png" alt="logo"></a>
             </div>
             <div class="navbar">
-                <ul>
+                <ul class="nav_link">
                     <li><a class="nav-link" href="index.html">Home</a></li>
                     <li><a class="nav-link" href="about.html">ABOUT</a></li>
-                    <li><a class="nav-link" href="service.html">SERVICES <i class="fa-solid fa-caret-down"></i></a>
-                        <div class="dropdown">
-                            <ul>
-                                <li><a href="">service1</a></li>
-                                <li><a href="">service1</a></li>
-                                <li><a href="">service1</a></li>
-                                <li><a href="">service1</a></li>
+                    <li><div class="dropdown">
+                        SERVICES 
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                        
+                            <ul class="dropdown_list">
+                                <li><a href="service.html">service</a></li>
+                                <li><a href="service.html">service</a></li>
                             </ul>
-                        </div>
+                        
                     </li>
                     <li><a class="nav-link" href="faq.html">FAQ</a></li>
-                        <li><a class="nav-link" href="contact.html">CONTACT</a></li>
-                    
+                    <li><a class="nav-link" href="contact.html">CONTACT</a></li>
+
                     <li><input type="text" class="text_recherch"></li>
-                    <li><svg xmlns="http://www.w3.org/2000/svg" class="icon_recherch" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path
-                            d="M21 21L15 15L21 21ZM17 10C17 10.9193 16.8189 11.8295 16.4672 12.6788C16.1154 13.5281 15.5998 14.2997 14.9497 14.9497C14.2997 15.5998 13.5281 16.1154 12.6788 16.4672C11.8295 16.8189 10.9193 17 10 17C9.08075 17 8.1705 16.8189 7.32122 16.4672C6.47194 16.1154 5.70026 15.5998 5.05025 14.9497C4.40024 14.2997 3.88463 13.5281 3.53284 12.6788C3.18106 11.8295 3 10.9193 3 10C3 8.14348 3.7375 6.36301 5.05025 5.05025C6.36301 3.7375 8.14348 3 10 3C11.8565 3 13.637 3.7375 14.9497 5.05025C16.2625 6.36301 17 8.14348 17 10Z"
-                            stroke="#2D2F30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg></li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" class="icon_recherch" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M21 21L15 15L21 21ZM17 10C17 10.9193 16.8189 11.8295 16.4672 12.6788C16.1154 13.5281 15.5998 14.2997 14.9497 14.9497C14.2997 15.5998 13.5281 16.1154 12.6788 16.4672C11.8295 16.8189 10.9193 17 10 17C9.08075 17 8.1705 16.8189 7.32122 16.4672C6.47194 16.1154 5.70026 15.5998 5.05025 14.9497C4.40024 14.2997 3.88463 13.5281 3.53284 12.6788C3.18106 11.8295 3 10.9193 3 10C3 8.14348 3.7375 6.36301 5.05025 5.05025C6.36301 3.7375 8.14348 3 10 3C11.8565 3 13.637 3.7375 14.9497 5.05025C16.2625 6.36301 17 8.14348 17 10Z"
+                                stroke="#2D2F30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></li>
                 </ul>
-             
+
             </div>
             <img src="img/menu.png" alt="" class="menu">
         </nav>
-    </header>               
+    </header>             
     <div class="servic_sec">
         <div class="title_ser">Our Services</div>
         <div class="services">
@@ -195,4 +199,9 @@
 </body>
 
 </html>
-<script src="/script.js"></script>
+<script src="validation.js"></script>
+<script src="drop.js"></script>
+<script src="modal.js"></script>
+<script src="recherch.js"></script>
+<script src="faq.js"></script>
+<script src="menu.js"></script>
