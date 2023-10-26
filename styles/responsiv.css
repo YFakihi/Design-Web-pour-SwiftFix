@@ -86,7 +86,7 @@
     }
 }
 
-@media  screen and (max-width: 1023px) and (min-width: 400px)  {
+@media  screen and (max-width: 723px)  {
    .hero{
     display: none;
    }
@@ -95,7 +95,7 @@
    }
    .box{
     display: flex;
-    height: 100vh;
+    height: 40vh;
     flex-direction: column;
     width: 100%;
     gap: 0;
@@ -111,7 +111,7 @@
     width:100%;
    }
    .textitem p{
-    width: 580px;
+ 
 
    }
    .text 
@@ -199,7 +199,7 @@ form{
 }
 .footer_child{
     font-size: 2rem;
-    height: 34vh;
+
 }
 
 }
@@ -219,7 +219,7 @@ form{
        }
 
        .textitem p{
-        width:17rem;
+        
         margin-bottom: 9rem;
        }
 

@@ -8,6 +8,6 @@ function carousel(){
     let trans = -index * width
     carousl.style.transform = `translateX(${trans}px)`
 }
-setInterval(carousel,3000)
+setInterval(carousel,1000)
 
 })

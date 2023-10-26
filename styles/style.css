@@ -407,7 +407,7 @@ button {
 .BG{
     background: #F2F7FF;
     display: flex;
-    height: 40rem;
+
     align-items: center;
     flex-direction: column;
     padding: 0 10%;
@@ -427,6 +427,7 @@ button {
 }
 
 .Testimonials{
+    /* transition:transform.0.3s; */
     display: inline-flex;
     align-items: flex-start;
     margin-top: 5rem;
@@ -527,7 +528,7 @@ button {
     font-weight: 500;
     line-height: 36px; 
     letter-spacing: 0.5px;
-    width: 821px;
+    /* width: 821px; */
     height: 129.393px;
     flex-shrink: 0;
      margin-bottom: 1rem;
