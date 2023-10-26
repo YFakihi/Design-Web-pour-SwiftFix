@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body .container{
+            width: 100%;
+            min-height: 100vh;
+        }
+        .container{
+            position: relative;
+            width: 100%;
+            min-height: 450px;
+            background-color: aquamarine;
+        }
+      
+        .container .header h1{ 
+                position: relative;
+                font-size: 40px;
+               text-transform: uppercase;
+               background-color: aqua;
+               color: brown;
+                text-align: center;
+               font-weight: 500;
+                border: 1px solid black;
+        }
+        .container .testrow{
+            width: 100%;
+            min-height: inherit;
+            position: relative;
+        }
+        .testrow .testitem{
+            width: 100%;
+            height: 100%;
+          
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .testrow .testitem:not(.active){
+            top: 0;
+            left: -100%;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="header"> <h1>testemenial</h1> </section>
+
+        <section class="testrow">
+            <div class="testitem">
+                <img src="img/p1.png" alt="">
+                <h3>Jon Doe</h3>
+                <p>Lorem ipsum, dolor sit 
+                    amet consectetur adipisicing elit. 
+                    Aut voluptatem nostrum ad ipsa quod
+                    quia harum, natus temporibus,
+                     quam eligendi ratione similique, 
+                     itaque fugiat earum! Minima ratione error 
+                     id eum ex quidem perferendis?</p>
+            </div>
+
+            <div class="testitem active" >
+                <img src="img/p1.png" alt="">
+                <h3>Jon Doe</h3>
+                <p>Lorem ipsum, dolor sit 
+                    amet consectetur adipisicing elit. 
+                    Aut voluptatem nostrum ad ipsa quod
+                    quia harum, natus temporibus,
+                     quam eligendi ratione similique, 
+                     itaque fugiat earum! Minima ratione error 
+                     id eum ex quidem perferendis?</p>
+            </div>
+            <div class="testitem">
+                <img src="img/p1.png" alt="">
+                <h3>Jon Doe</h3>
+                <p>Lorem ipsum, dolor sit 
+                    amet consectetur adipisicing elit. 
+                    Aut voluptatem nostrum ad ipsa quod
+                    quia harum, natus temporibus,
+                     quam eligendi ratione similique, 
+                     itaque fugiat earum! Minima ratione error 
+                     id eum ex quidem perferendis?</p>
+            </div>
+
+        </section>
+    </div>
+</body>
+</html>

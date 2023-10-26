@@ -405,13 +405,13 @@ button {
 }
 
 .BG{
-    width: 100%;
     background: #F2F7FF;
     display: flex;
-    width: 100%;
     height: 40rem;
     align-items: center;
     flex-direction: column;
+    padding: 0 10%;
+
 
 }
 .BG .ptr{
@@ -431,8 +431,6 @@ button {
     align-items: flex-start;
     margin-top: 5rem;
     flex-direction: row;
-    width: 80%;
-    gap: 5rem;
     
 }
 .card{
@@ -465,8 +463,12 @@ button {
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
-    gap: 1rem;
+ 
+    min-width: 100%;
     
+}
+.all_Testimonials{
+    overflow: hidden;
 }
 
 .Client_details1{

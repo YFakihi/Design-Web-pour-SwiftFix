@@ -1,5 +1,38 @@
-@media  screen and (max-width: 1023px) and (min-width: 400px)  {
 
+
+@media (max-width: 1280px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media (max-width:1130px) {
+    html {
+        font-size: 8.6px;
+    }
+}
+
+@media (max-width: 992px) {
+    html {
+        font-size: 7.7px;
+    }
+}
+
+@media (max-width: 420px) {
+    html {
+        font-size: 6.5px;
+    }
+
+}
+
+@media screen and (max-width:1024px)  {
+
+    section .slider{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+  
     .navbar{    
         top: 0;
         left: 0;
@@ -131,9 +164,7 @@
     width: 73%;
 }
 
-#Text_testimonial2{
-    display: none;
-}
+
 
 /* page about */
 .heroo{
@@ -173,14 +204,15 @@ form{
 
 }
 
-@media (max-width:1023px) { 
-    
-}
+
 
 @media  screen and (max-width: 500px)   {
     .p1{
         width: 15rem;
        }
+       #Text_testimonial2{
+        display: none;
+    }
 
        .textitem h2{
         width:19rem;
@@ -189,5 +221,11 @@ form{
        .textitem p{
         width:17rem;
         margin-bottom: 9rem;
+       }
+
+       .box{}
+       .box-items{
+        flex: 100%;
+        max-width: 50%;
        }
 }
